@@ -1,0 +1,55 @@
+import random
+print("This is a dice stimulator")
+x= "y"
+
+while x == "y":
+    num=random.randint(1,6)
+    
+    if num==1:
+        print(" _______\n")
+       
+        print("{       }")
+        print("{   0   }")
+        print("{       }") 
+        print(" _______")
+    
+    if num==2:
+        print(" _______\n")
+    
+        print("{       }")
+        print("{  0 0  }")
+        print("{       }") 
+        print(" _______")
+    
+    if num==3:
+        print(" _______\n")
+    
+        print("{       }")
+        print("{0  0  0}")
+        print("{       }") 
+        print(" _______")    
+
+    if num==4:
+        print(" _______\n")
+    
+        print("{   0   }")
+        print("{0     0}")
+        print("{   0   }") 
+        print(" _______")    
+
+    if num==5:
+        print(" _______\n")
+     
+        print("{   0   }")
+        print("{0  0  0}")
+        print("{   0   }") 
+        print(" _______")    
+    if num==6:
+        print(" _______\n")
+        
+        print("{  0 0  }")
+        print("{  0 0  }")
+        print("{  0 0  }") 
+        print(" _______")       
+    x=input(" PRESS y to roll again")  
+       
